@@ -44,7 +44,7 @@ def ingest_docs():
             doc.metadata.update({"source": new_url})
 
     print(f"Going to add {len(documents)} documents to Pinecone")
-    Pinecone.from_documents(documents, embeddings, index_name="langchain-index")
+    Pinecone.from_documents(documents, embeddings, index_name="lab5")
 
 if __name__ == "__main__":
     ingest_docs()
