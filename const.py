@@ -1,1 +1,1 @@
-INDEX_NAME = "langchain-index"
+INDEX_NAME = "lab5"
